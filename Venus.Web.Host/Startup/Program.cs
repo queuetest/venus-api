@@ -13,7 +13,6 @@ namespace Venus.Web.Host.Startup
 
         public static IWebHost BuildWebHost(string[] args)
         {
-            var port = Environment.GetEnvironmentVariable("PORT");
             return WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
