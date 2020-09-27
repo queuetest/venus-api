@@ -115,5 +115,4 @@ Backup*/
 UpgradeLog*.XML
 src/.vs/config/applicationhost.config
 appsettings.Development.json
-appsettings.Staging.json
 node_modules
