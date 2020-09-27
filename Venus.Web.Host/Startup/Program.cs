@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore;
+﻿using System;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 
 namespace Venus.Web.Host.Startup
 {
@@ -14,8 +13,10 @@ namespace Venus.Web.Host.Startup
 
         public static IWebHost BuildWebHost(string[] args)
         {
+            var port = Environment.GetEnvironmentVariable("PORT");
             return WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                .UseUrls("http://*:" + port)
                 .Build();
         }
     }
