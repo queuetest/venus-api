@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venus.Core", "Venus.Core\Ve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venus.EntityFrameworkCore", "Venus.EntityFrameworkCore\Venus.EntityFrameworkCore.csproj", "{BA74DDB4-36FD-4BE7-92C8-9D42B023172F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venus.Migrator", "Venus.Migrator\Venus.Migrator.csproj", "{CB781479-84E5-496C-A4E8-19D5EFB57A82}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venus.Web.Core", "Venus.Web.Core\Venus.Web.Core.csproj", "{598A10B9-6573-4653-969F-BA427929ECB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Venus.Web.Host", "Venus.Web.Host\Venus.Web.Host.csproj", "{D44B3755-17F0-4E59-963B-93383B7D348B}"
@@ -31,10 +29,6 @@ Global
 		{BA74DDB4-36FD-4BE7-92C8-9D42B023172F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA74DDB4-36FD-4BE7-92C8-9D42B023172F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA74DDB4-36FD-4BE7-92C8-9D42B023172F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CB781479-84E5-496C-A4E8-19D5EFB57A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB781479-84E5-496C-A4E8-19D5EFB57A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB781479-84E5-496C-A4E8-19D5EFB57A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB781479-84E5-496C-A4E8-19D5EFB57A82}.Release|Any CPU.Build.0 = Release|Any CPU
 		{598A10B9-6573-4653-969F-BA427929ECB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{598A10B9-6573-4653-969F-BA427929ECB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598A10B9-6573-4653-969F-BA427929ECB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
